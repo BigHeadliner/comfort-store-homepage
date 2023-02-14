@@ -1,0 +1,1809 @@
+@media(max-width: 1827px) { 
+  
+  //  slick  
+
+    .ship .slick-arrow {
+        position: absolute;
+        top: 45%; 
+    }  
+     
+    .ship .slick-prev {
+        left: 37px;
+    } 
+     
+    .ship .slick-next {
+        right: 37px;
+    }
+
+}
+  
+   
+    
+ @media(max-width: 1770px) {
+
+    //  header 
+
+    .header__menu {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid transparent;
+        align-items: center;
+    }
+
+    .header__menu .menu {
+        margin-right: 15px;
+    }
+
+    .header__menu .logo {
+        margin: 0;
+        position: relative;
+    }
+
+    .header__menu .menu__item+.menu__item {
+        margin-left: 40px;
+    }
+
+    .header__menu .user-nav {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+} 
+ 
+ 
+@media(max-width: 1750px) {
+
+    // collection
+
+    .collection__items, 
+    .collection__items-1 {
+        max-width: 1143px;
+    } 
+     
+    // footer 
+     
+    .footer__top-office, 
+    .footer__top-product, 
+    .footer__top-help, 
+    .footer__top-join{ 
+       border: 1px solid transparent;
+    }  
+
+} 
+ 
+@media(max-width: 1700px) {    
+     
+    // footer 
+     
+    .footer__top{ 
+        justify-content: space-between;
+    }
+
+    .footer__top-office {
+        margin-right: 0;
+    }  
+
+
+}
+ 
+@media(max-width: 1617px) { 
+      
+    // collection__items
+ 
+  .collection__items-1 {
+        margin: 0 auto 83px; 
+    }
+
+    // about-furniture
+
+    .about-furniture__item {
+        flex-wrap: wrap-reverse;
+        max-width: 1300px;
+        border: 1px solid transparent;
+        text-align: center;
+        margin: 0 auto;
+    } 
+     
+    .about-furniture__img{ 
+        margin: 0 auto;
+    } 
+      
+    .about-furniture__text {
+        padding-top: 29px; 
+        text-align: center; 
+        margin: 0 auto;
+    } 
+     
+    .about-furniture__title {
+        line-height: 97px;
+        margin-bottom: 31px; 
+        max-width: 800px;   
+        margin: 0 auto 40px;
+    } 
+     
+    .about-furniture__paragraph {
+        max-width: 947px;
+        line-height: 43px;
+        margin-bottom: 83px;
+        margin: 0 auto 25px;
+    } 
+     
+    .about-furniture__rating{ 
+        margin: 0 auto 25px;  
+    } 
+     
+    .about-furniture__counter{ 
+        text-align: center;  
+        padding-right: 0; 
+        padding-top: 19px;
+    } 
+     
+    .about-furniture .about-furniture-prev {
+        left: 9%;
+    } 
+     
+    .about-furniture .about-furniture-next {
+        right: 9%;
+    }  
+         
+    // find-us 
+
+    .find-us__item {
+        height: 380px; 
+    } 
+
+}
+
+
+@media(max-width: 1595px) {
+
+    //  header  
+
+    .header__menu .menu__item+.menu__item {
+        margin-left: 25px;
+    } 
+      
+    // ship 
+     
+    .ship .slick-prev {
+        left: 19px;
+    } 
+     
+    .ship .slick-next {
+        right: 19px;
+    } 
+      
+    // collection 
+
+    .collection__title {
+        margin: 73px 0 17px;
+    }   
+       
+    // about-furniture 
+
+    .about-furniture__img{ 
+        height: 750px;
+    } 
+     
+    .about-furniture__title{ 
+        font-size: 67px; 
+        line-height: 89px;
+    }
+     
+}
+
+
+@media(max-width: 1473px) {
+
+    // header
+
+    .header__menu {
+        padding-bottom: 25px;
+    }
+
+    .header__menu .menu__list {
+        display: block;
+        position: absolute;
+        height: auto;
+        text-align: center;
+        top: 107px;
+        left: 0;
+        right: 0;
+        background-color: $main-green-color;
+        text-align: center;
+        padding: 20px 0;
+        transform: translateY(-900px);
+        transition: all .5s;
+        z-index: 50;
+    }
+
+    .header__menu .menu__item+.menu__item {
+        margin-left: 0;
+    }
+
+    .header .menu .menu__list.menu__list--active {
+        transform: translateY(0);
+    }
+
+    .header__menu .menu__link {
+        color: #FFF;
+    }
+
+    .header__menu .menu__btn {
+        display: block;
+    }
+
+    .header__menu .menu {
+        order: 3;
+    }
+
+    .header__menu .user-nav {
+        order: 2;
+        margin-left: auto;
+    } 
+      
+    // front
+     
+    .front {
+        margin-bottom: 75px; 
+    } 
+        
+    // ship
+     
+    .ship__slider-wrapper {
+        border: 1px solid rgba(0,0,0,0);
+        margin-bottom: 95px;
+    }   
+     
+     // products 
+
+     .products { 
+        padding-top: 83px;
+      }  
+     
+     .products__title {
+        margin: 0px auto 100px;
+        font-size: 70px;
+        line-height: 99px;
+    } 
+     
+     // about-furniture 
+      
+     .about-furniture {
+        margin-bottom: 85px;
+    }
+     
+     .about-furniture__title {
+        line-height: 83px;
+        margin: 0 auto 30px;  
+        font-size: 67px
+    } 
+     
+    .about-furniture__paragraph {
+        margin: 0 auto 21px;
+    } 
+      
+    // help 
+
+    .help{
+        padding-top: 105px;
+    }
+
+} 
+ 
+@media(max-width:1417px) {
+
+    // ship 
+
+    .ship .slick-prev {
+        left: 5px;
+    }
+
+    .ship .slick-next {
+        right: 5px;
+    } 
+      
+    // collection__items 
+
+    .collection__items-1 {
+        margin: 0 auto 60px;
+    }
+}
+
+@media(max-width: 1370px) {
+
+    // header
+
+    .header__top-text {
+        font-size: 18px;
+    }
+
+    .header__menu .logo-text {
+        font-size: 45px;
+    }
+
+    // front 
+
+    .front__inner {
+        padding-top: 205px;
+    }
+
+    .front__btn {
+        padding: 27px 30px;
+        margin-bottom: 290px;
+    }
+
+    // global 
+
+    .main-title {
+        font-size: 68px;
+        line-height: 88px;
+    } 
+     
+     // find-us 
+
+     .find-us__item {
+        height: 300px; 
+    }  
+     
+    .find-us__details-btn {
+      padding: 18px 35px;
+     }  
+       
+    //  about-furniture 
+
+     .about-furniture {
+        margin-bottom: 75px;
+    }   
+     
+    // footer
+     
+    .footer {
+        padding-top: 100px;
+    } 
+     
+    .footer__top{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .footer__top-office,  
+    .footer__top-product,  
+    .footer__top-help,  
+    .footer__top-join { 
+        margin: 15px;
+    }
+
+ } 
+ 
+ 
+@media(max-width: 1307px){   
+
+      // ship  
+
+     .ship .slick-prev {
+        left: 0;
+    }
+
+    .ship .slick-next {
+        right: 0;
+    }
+}
+
+
+@media(max-width: 1270px) {
+
+    //    global   
+
+    main-title {
+        font-size: 58px;
+        line-height: 75px;
+    } 
+      
+    // front 
+
+    .front__inner {
+        padding-top: 173px;
+    } 
+     
+    .front__title {
+        margin-bottom: 30px;
+    } 
+     
+    .front__subtitle {
+        margin-bottom: 90px 
+    } 
+     
+    .front__btn { 
+        padding: 19px 20px;
+        margin-bottom: 207px; 
+        font-size: 21px;
+        max-width: 335px;
+    }  
+     
+    // about-furniture  
+
+    .about-furniture {
+        margin-bottom: 65px;
+    }
+     
+    .about-furniture__img{ 
+        height: 650px;
+    } 
+     
+    // find-us
+
+    .find-us__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        border: 1px solid transparent;
+    } 
+     
+    .find-us__title{ 
+        text-align: center;
+    } 
+      
+    // footer 
+
+    .footer {
+        padding-top: 30px;
+    }  
+     
+    .footer__top {
+        border-top: 1px solid transparent; 
+    }
+
+}   
+ 
+@media(max-width: 1240px) {
+
+    // footer 
+
+    .footer {
+        padding-top: 0;
+    }
+
+}
+  
+ 
+@media(max-width:1170px) {
+
+    //  collection 
+      
+    .collection__items, 
+    .collection__items-1 {
+        max-width: 940px;
+    }
+
+    .collection__item1, 
+    .collection__item2, 
+    .collection__item3, 
+    .collection__item4, 
+    .collection__item5, 
+    .collection__item6, 
+    .collection__item7, 
+    .collection__item8, 
+    .collection__item9, 
+    .collection__item10, 
+    .collection__item11 {
+      max-width:455px; 
+      height: 455px;
+       
+    }     
+
+    // advantages 
+    
+    .advantages__item--borders {
+       border: 1px solid transparent;   
+
+    }  
+     
+    //  products
+     
+    .products {
+        padding-top: 70px; 
+    } 
+     
+    .products__decor {
+        margin: 0 auto 35px; 
+    } 
+     
+    .products__title {
+        margin: 0px auto 90px;
+        font-size: 53px;
+        line-height: 87px;
+    } 
+      
+    // collection__items 
+
+    .collection__items-1 {
+        margin: 0 auto 33px;
+    }  
+     
+    // help
+     
+    .help {
+        padding-top: 95px;
+    } 
+     
+    .help__title{ 
+        font-size: 65px; 
+        margin-bottom: 7px;
+    }  
+     
+    .help__subtitle{ 
+        font-size: 23px; 
+        line-height: 38px; 
+        margin-bottom: 19px;
+    }
+  
+} 
+ 
+@media(max-width: 1090px) {     
+
+    //  help 
+
+    .help {
+        padding-top: 85px;
+    }    
+     
+    .help__inner{ 
+        display: block;
+    }
+     
+    .help__content-wrapper{ 
+        text-align: center;
+        border: 1px solid transparent;
+        max-width: 700px;
+        margin: 0 auto; 
+    } 
+     
+    .help__subtitle {
+        font-size: 23px;
+        line-height: 38px;
+        margin-bottom: 19px;
+    } 
+     
+    .help__email {
+        margin-bottom: 70px;
+    } 
+     
+    .help__btn-subtitle {
+        margin-bottom: 77px;
+    }
+     
+}
+ 
+ 
+@media(max-width: 1039px) {  
+     
+    // collection
+     
+    .collection__items {
+        margin: 0 auto 50px;
+    }   
+     
+    // advantages
+     
+    .advantages {
+        padding: 40px 0;
+        margin-bottom: 70px;
+    } 
+     
+    // about-furniture 
+
+    .about-furniture__text {
+        padding-top: 23px; 
+    } 
+     
+    .about-furniture__title{ 
+        font-size: 54px;
+        line-height: 65px; 
+        margin: 0px auto 23px;
+    } 
+     
+    .about-furniture__paragraph{ 
+        font-size: 20px; 
+        line-height: 40px;
+    } 
+     
+    .about-furniture__img{ 
+        height: 555px;
+    } 
+        
+    .find-us__title {
+        text-align: center;
+    }  
+     
+} 
+ 
+@media(max-width: 1017px) { 
+  
+    // find-us__item 
+
+    .find-us__item{ 
+        max-width: 700px; 
+        margin-bottom: 10px;
+    } 
+      
+    // help
+     
+    .help__email {
+        margin-bottom: 50px;
+    } 
+     
+    .help__btn-subtitle {
+        margin-bottom: 54px;
+    }
+
+} 
+
+ 
+@media(max-width: 970px) { 
+     
+    // header
+
+    .header__menu .user-nav {
+        order: 1; 
+        margin-right: 0; 
+        margin-left: 0;
+    } 
+     
+    .header__menu .logo { 
+        order: 2;
+    } 
+     
+    //  collection 
+       
+    .collection__items, 
+    .collection__items-1 {
+        max-width: 830px; 
+        margin: 0 auto 50px;
+    }
+
+    .collection__item1, 
+    .collection__item2, 
+    .collection__item3, 
+    .collection__item4, 
+    .collection__item5, 
+    .collection__item6, 
+    .collection__item7, 
+    .collection__item8, 
+    .collection__item9, 
+    .collection__item10, 
+    .collection__item11 {
+        max-width:400px; 
+        height: 440px;
+    }      
+     
+    // advantages
+     
+    .advantages__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+      
+     
+     // collection__items 
+
+     .collection__items-1 {
+        margin: 0 auto 23px;
+    }  
+      
+    // find-us 
+
+    .find-us__title{ 
+        font-size: 65px;
+        line-height: 79px;
+    } 
+      
+    // about-furniture 
+
+    .about-furniture {
+        margin-bottom: 54px;
+    }
+
+} 
+  
+
+@media(max-width: 930px) {
+
+    // global
+
+    .main-title {
+        font-size: 59px;
+        line-height: 75px;
+    }
+
+    // front
+
+    .front {
+        margin-bottom: 65px;
+    }
+
+    .front__inner {
+        padding-top: 127px;
+    }
+
+    .front__subtitle {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 63px;
+    }
+
+    .front__btn {
+        padding: 15px 20px;
+        margin-bottom: 173px;
+        font-size: 21px;
+        max-width: 270px;
+    }
+
+    //  ship
+
+    .ship__slider-wrapper {
+        margin-bottom: 73px;
+    } 
+      
+    // products  
+     
+    .products {
+        padding-top: 50px;
+    }
+
+     
+    .products__title {
+        margin: 0px auto 85px;
+        font-size: 43px;
+        line-height: 70px;
+    }
+
+}
+ 
+@media(max-width:870px){  
+
+     //  collection 
+      
+     .collection__items {
+        max-width: 830px;
+    }
+
+    .collection__item1, 
+    .collection__item2, 
+    .collection__item3, 
+    .collection__item4, 
+    .collection__item5, 
+    .collection__item6, 
+    .collection__item7, 
+    .collection__item8, 
+    .collection__item9, 
+    .collection__item10, 
+    .collection__item11 {
+        max-width:100%; 
+        height: 350px;
+       
+    }      
+
+    .collection__item-title {
+        padding: 15px 0; 
+    } 
+      
+    // advantages  
+
+    .advantages {
+        margin-bottom: 40px; 
+    } 
+      
+    // ship 
+
+    .ship__subtitle {
+        margin-bottom: 7px;
+    } 
+     
+    .ship__slider-title {
+        margin-bottom: 14px; 
+    } 
+     
+    .ship__price {
+        margin-bottom: 31px;
+    } 
+      
+    //  collection
+     
+    .collection__title {
+        margin: 64px 0 17px;
+    } 
+      
+    // about-furniture
+     
+    .about-furniture__title{ 
+        font-size: 51px;
+        line-height: 65px; 
+        margin: 0 auto 19px;
+    } 
+     
+    .about-furniture__paragraph {
+        font-size: 19px;
+        line-height: 36px;
+    }   
+     
+     
+     .jq-ry-normal-group svg { 
+         width: 25px;
+     } 
+     
+    // .jq-ry-group svg {  
+    //     width: 28px;
+    // } 
+     
+    .about-furniture__rating{ 
+        align-items: center; 
+        max-width: 300px
+    } 
+     
+    .about-furniture__rating-title {
+        font-size: 23px;
+    } 
+      
+    // help
+
+    .help {
+        padding-top: 75px;
+    } 
+     
+    .help__email {
+        margin-bottom: 40px;
+    } 
+     
+    .help__btn-subtitle {
+        margin-bottom: 45px;
+    } 
+
+    .help__btn {
+        padding: 18px 32px 18px 70px; 
+    } 
+      
+    // footer 
+
+    .footer__top {
+        border-top: 1px solid transparent;
+        display: flex;
+        overflow: hidden;
+        margin-bottom: 37px;
+        padding-top: 35px; 
+    }
+} 
+ 
+@media(max-width: 800px) {   
+       
+    // footer  
+     
+  .footer__top{ 
+    margin-bottom: 23px;
+  }
+
+  .footer__bottom-wrapper { 
+    flex-wrap: wrap;
+  } 
+    
+  .footer__bottom-menu, 
+  .footer__bottom-social{ 
+    margin: 15px;
+  }   
+   
+  .footer__bottom-social{ 
+    order:1;
+  } 
+   
+  .footer__bottom-menu{ 
+    order: 2; 
+    margin-bottom: 35px;  
+  }
+
+
+}
+ 
+@media(max-width: 775px) {      
+     
+  // global
+
+    .main-title {
+        font-size: 47px;
+        line-height: 65px;
+    }   
+      
+   // header   
+    
+   .header__top {
+      justify-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+    .header__top-text {
+        font-size: 16px; 
+        margin: 9px;
+    }  
+
+    .header__top-text--border{   
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+        
+    // front 
+
+    .front__inner {
+        padding-top: 123px;
+    }  
+     
+    .front__subtitle {
+        font-size: 17px;
+        line-height: 32px; 
+    } 
+     
+    .front__btn {
+        margin-bottom: 157px;
+        font-size: 19px;
+        max-width: 255px;
+    }  
+     
+    // font
+     
+    .front {
+        margin-bottom: 38px;
+    }
+
+}  
+ 
+@media(max-width: 747px){ 
+      
+    // header  
+      
+    .header__top {
+        padding: 5px 0;  
+    }   
+       
+    // collection
+     
+    .collection__title {
+        margin: 50px 0 17px;
+    }  
+     
+    // about-furniture
+     
+    .about-furniture {
+        margin-bottom: 47px;
+    }
+
+}  
+  
+@media(max-width: 715px) {
+
+    // help
+
+    .help__email {
+        display: none;
+    }
+
+    .help__title {
+        font-size: 65px;
+        margin-bottom: 17px;
+    }
+
+    .help__subtitle {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 45px;
+    }   
+     
+    // footer
+     
+    .footer__top-join{ 
+        position: relative; 
+    } 
+     
+    .footer__top-title--join{ 
+        position: absolute; 
+        top:17px;
+    }
+
+}  
+ 
+@media(max-width: 650px) {      
+     
+    //  help
+     
+    .help__subtitle {
+        margin-bottom: 35px;
+    } 
+      
+    // footer 
+
+    .footer__bottom-menu-item { 
+        font-size: 20px;
+    }
+
+}
+ 
+@media(max-width: 595px) {   
+     
+    // global
+     
+    .main-title {
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    // header   
+
+    .header .menu .menu__list.menu__list--active {
+        transform: translateY(-15px);
+    } 
+      
+    // front 
+
+    .front__inner {
+        padding-top: 109px;
+    } 
+     
+    .front__btn {
+        margin-bottom: 127px;
+    } 
+      
+    // products  
+     
+    .products__suptitle {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    .products__title {
+        margin: 0px auto 65px;
+        font-size: 37px;
+        line-height: 67px;
+    } 
+      
+    // collection 
+
+    .collection__title {
+        margin: 39px 0 17px;
+    } 
+     
+    .collection__subtitle {
+        font-size: 20px; 
+        line-height: 34px;
+        margin-bottom: 29px; 
+    }   
+     
+    // about-furniture
+     
+    .about-furniture__img{ 
+        height: 455px;
+    }
+ 
+ }  
+ 
+ 
+@media(max-width:530px) { 
+     
+    .header__menu {
+        padding-bottom: 25px;
+    }
+
+    // footer 
+
+    .footer__bottom-menu-item {
+        font-size: 16px;
+    }
+
+}
+ 
+@media(max-width: 500px) {
+
+    // global
+
+    .main-title {
+        font-size: 40px;
+        line-height: 53px;
+    }
+
+    // header
+
+    .header__menu .user-nav__link-basket {
+        position: relative;
+        margin-right: 15px;
+    } 
+     
+    .header__top {
+        padding: 14px 0;
+    }  
+     
+    .header__top-text{ 
+        margin: 1px;
+    }
+
+
+    // front 
+
+    .front__inner {
+        padding-top: 95px;
+    } 
+      
+    // advantages 
+
+    .advantages {
+        padding: 40px 0; 
+    }  
+     
+    .advantages__item-img {
+        margin: 0 auto 19px;
+    }
+      
+    .advantages__item-title {
+        margin-bottom: 9px; 
+    } 
+
+    .advantages__subtitle {
+        margin-bottom: 29px;
+    } 
+      
+    // ship 
+
+    .ship__subtitle{ 
+        font-size: 20px; 
+        line-height: 34px;
+    } 
+     
+    .ship__slider-title{ 
+        display: none;
+    } 
+     
+    .ship__price {
+        margin-bottom: 19px;
+    } 
+     
+    .ship .slick-prev {
+        left: -5px;
+    } 
+     
+    .ship .slick-next {
+        right: -5px;
+    } 
+      
+    // find-us 
+
+    .find-us__details-btn {
+        padding: 9px 9px; 
+        font-size: 20px;
+    } 
+      
+    // footer 
+
+    .footer__top-text{ 
+        font-size: 16px; 
+        line-height: 30px;
+    } 
+     
+    .footer__top-join{ 
+        position: relative;
+    }  
+     
+    .footer__top-title--join{ 
+        position: absolute; 
+        top: 25px;
+    }
+     
+ } 
+ 
+@media(max-width: 470px) {
+
+    // header
+
+    .header__top {
+        display: none;
+    }
+
+    .header__menu {
+        padding: 25px 0;
+    }
+
+    .header .menu .menu__list.menu__list--active {
+        transform: translateY(1px);
+    }  
+     
+    // collection
+     
+    .collection__title {
+        margin: 30px 0 17px; 
+        line-height: 43px;
+    } 
+     
+     // find-us 
+
+     .find-us__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 7px;
+        width: fit-content; 
+        margin: 0 auto;
+    }
+
+    .find-us__item {
+        min-width: 197px;
+        margin-bottom: 0; 
+        height: 233px;
+    }  
+     
+    // footer
+     
+    .footer__top-input{ 
+      padding: 0 10px; 
+      margin-right: 0;
+    }
+
+} 
+  
+
+@media(max-width: 450px) {
+
+    // header
+
+    .user-nav__link-search {
+        display: none;
+    }
+
+    // front 
+
+    .front__inner {
+        text-align: center;
+        padding-top: 77px;
+    }
+
+    .front__subtitle {
+        display: none;
+    }
+
+    .front__btn { 
+        max-width: 314px; 
+        width: 100%; 
+        padding: 21px 34px;
+        margin-bottom: 73px; 
+        font-size: 18px;
+    } 
+     
+     // collection    
+
+    .collection__item1,  
+    .collection__item2,  
+    .collection__item3,  
+    .collection__item4,  
+    .collection__item5,  
+    .collection__item6,  
+    .collection__item7,  
+    .collection__item8,  
+    .collection__item9,  
+    .collection__item10,  
+    .collection__item11 {
+        max-width: 100%;
+        height: 330px;  
+    }  
+     
+    .collection__items-1 {
+        margin: 0 auto 10px; 
+    }
+      
+    // about-furniture 
+     
+    .about-furniture {
+        margin-bottom: 34px;
+    }
+
+    .about-furniture__img {
+        height: 355px;
+    }
+
+}  
+ 
+@media(max-width:437px) {
+
+    // ship
+
+    .ship__title {
+        margin-bottom: 0;
+    }
+
+    .ship__subtitle {
+        display: none;
+    }
+
+
+    .ship .slick-dots {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: -75px;
+        border: 1px solid transparent;
+    }
+
+    .ship .slick-dots li+li {
+        margin-left: 15px;
+    }
+
+    .ship .slick-dots .slick-active button {
+        background: $main-btn-color;
+    }
+
+    .ship .slick-dots button {
+        width: 15px;
+        height: 15px;
+        background: $main-text-color;
+        font-size: 0;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+    } 
+      
+    // about-furniture
+     
+    .about-furniture__title {
+        font-size: 30px;
+        line-height: 39px;  
+        margin: 0 auto 10px; 
+    } 
+      
+   
+    .about-furniture__paragraph {
+        font-size: 17px;
+        line-height: 33px;
+    } 
+      
+    // footer 
+
+    .footer__top{ 
+        justify-content: start;
+    } 
+     
+    .footer__top-address--last {
+        margin-bottom: 10px; 
+    } 
+      
+    .footer__top-contact--email{ 
+        margin-bottom: 25px;
+    } 
+     
+    .footer__top-title--help{ 
+        font-size: 23px;
+    }  
+     
+    .footer__top-help-item{ 
+        font-size: 20px;
+    } 
+     
+    .footer__top-title--join{ 
+        font-size: 30px;    
+        position: absolute;
+        top: 15px;   
+    } 
+     
+    .footer__top-form {
+        margin: 65px 0 29px;
+    }
+
+    .footer__top-office, 
+    .footer__top-product, 
+    .footer__top-help, 
+    .footer__top-join{  
+        max-width: 384px;
+        width: 100%; 
+        padding-bottom: 8px; 
+        border-bottom: 2px solid #FFF; 
+        margin: 0; 
+        margin-bottom: 33px;
+    } 
+     
+    .footer__top-join{   
+       padding-bottom: 45px;
+    }
+
+} 
+ 
+@media(max-width: 428px) {
+
+    // find-us__item  
+
+    .find-us__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .find-us__item {
+        max-width: 700px;
+        margin-bottom: 5px;
+    } 
+     
+    .find-us__title{ 
+       font-size: 35px;
+       line-height: 40px;  
+    } 
+     
+    // help 
+     
+    .help{ 
+        padding-top: 95px;
+    }   
+     
+    .help__title{ 
+        font-size: 30px; 
+        line-height: 38px; 
+        margin-bottom: 10px;
+    } 
+     
+    .help__subtitle{
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    } 
+     
+    .help__btn{ 
+        padding: 14px 32px 14px 40px; 
+        font-size: 25px; 
+        margin-bottom: 53px;
+    }   
+     
+    .help__btn::before {
+        position: absolute;
+        top: 22px;
+        left: 7px;
+    }
+     
+    .help__btn-subtitle{ 
+        font-size: 22px; 
+        line-height: 27px; 
+        margin-bottom: 95px;
+    } 
+     
+    .footer__bottom-menu{ 
+        display: none;
+    } 
+      
+    // footer 
+
+    .footer__top {
+        margin-bottom: 0;
+    } 
+     
+    .footer__top-join{ 
+        margin-bottom: 25px;
+    } 
+     
+    .footer__bottom-social{ 
+        margin: 15px 15px 25px 15px;
+    }
+  
+
+} 
+ 
+@media(max-width: 410px) {    
+     
+    // footer
+     
+    .footer__top-form-inner{ 
+        position: relative; 
+        height: 67px;
+    }     
+
+    .footer__top-btn{ 
+        position: absolute; 
+        right: 0;
+    } 
+     
+    .footer__top-title--join {
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+    } 
+     
+    .footer__bottom-payment{ 
+        margin-bottom: 37px;
+    }
+
+}
+ 
+@media(max-width: 400px) {       
+     
+    // front
+     
+    .front {
+        margin-bottom: 25px;
+    }
+     
+     // global 
+      
+     .main-title {
+        font-size: 35px;
+        line-height: 50px;
+    } 
+     
+    // header
+     
+    .header__menu .logo-text {
+        font-size: 34px;
+    }   
+     
+    .front__btn {
+        max-width: 307px;
+        width: 100%;
+        padding: 20px 33px; 
+    } 
+     
+     
+      // collection    
+
+      .collection__item1,  
+      .collection__item2,  
+      .collection__item3,  
+      .collection__item4,  
+      .collection__item5,  
+      .collection__item6,  
+      .collection__item7,  
+      .collection__item8,  
+      .collection__item9,  
+      .collection__item10,  
+      .collection__item11 {
+          max-width: 100%;
+          height: 315px;   
+          margin-bottom: 15px;
+      } 
+        
+    //   ship 
+
+      .ship__btn {
+        padding: 20px 15px;
+        width: 100%;
+    }  
+     
+    // find-us
+     
+    .find-us__title{ 
+        font-size: 35px; 
+        line-height: 40px;
+     }  
+
+} 
+ 
+@media(max-width: 370px) {
+
+    //  header
+
+    .header__menu .logo-text {
+        font-size: 30px;
+    } 
+     
+     // collection    
+
+     .collection__item1,  
+     .collection__item2,  
+     .collection__item3,  
+     .collection__item4,  
+     .collection__item5,  
+     .collection__item6,  
+     .collection__item7,  
+     .collection__item8,  
+     .collection__item9,  
+     .collection__item10,  
+     .collection__item11 {
+         max-width: 100%;
+         height: 300px;   
+         margin-bottom: 10px;
+     } 
+       
+    //   products 
+
+     .products__title {
+        margin: 0px auto 65px;
+        font-size: 35px;
+        line-height: 65px;
+    } 
+      
+    // about-furniture 
+
+    .about-furniture__title {
+        font-size: 35px;
+        line-height: 45px;
+    } 
+     
+    .about-furniture__rating{ 
+        justify-content: space-around;
+    }  
+     
+    // help
+     
+    .help {
+        padding-top: 75px; 
+    } 
+     
+    .help__subtitle {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    } 
+     
+    .help__btn {
+        margin-bottom: 35px;
+    } 
+     
+    .help__btn-subtitle{ 
+        margin-bottom: 54px;
+    }
+
+}  
+ 
+@media(max-width: 345px) {
+
+    // ship 
+
+    .ship__price {
+        margin-bottom: 10px;
+    }
+
+    .ship .ship__slider-img--armchair {
+        margin: 0 auto;
+    }
+
+    .ship .ship__slider-img--sectional {
+        margin: 0px auto 9px
+    }
+
+    .ship__slider-img--sofa {
+        margin: 27px auto 15px;
+    }
+
+    .ship .ship__slider-img--chair {
+        margin: 25px auto 35px;
+    }
+
+    .ship .slick-dots {
+        position: absolute;
+        bottom: -58px;
+    } 
+      
+    // about-furniture  
+     
+    .about-furniture {
+        margin-bottom: 23px;
+    }
+
+    .about-furniture__paragraph {
+        font-size: 17px;
+        line-height: 30px;
+    } 
+     
+    .about-furniture__rating {
+        margin: 0 auto 15px;
+    } 
+     
+    .about-furniture__text {
+        padding-top: 10px;
+    } 
+      
+    // help 
+
+    .help {
+        padding-top: 54px;
+    }  
+
+    .help__btn-subtitle {
+        margin-bottom: 34px;
+    }   
+     
+    // footer
+     
+    .footer__bottom-payment-item{ 
+        width: 65px; 
+        height: 65px;
+    } 
+     
+    .footer__top-title--join {
+        font-size: 27px; 
+    }
+
+}
+
+ 
+@media(max-width: 320px) {
+
+    //  header
+     
+    .header__menu .logo-text {
+        font-size: 28px;
+    }   
+     
+    .main-title {
+        font-size: 34px;
+        line-height: 47px;
+    }  
+     
+    // front
+     
+    .front__btn {
+        max-width: 287px;
+        width: 100%; 
+    } 
+     
+    // collection    
+
+    .collection__item1,  
+    .collection__item2,  
+    .collection__item3,  
+    .collection__item4,  
+    .collection__item5,  
+    .collection__item6,  
+    .collection__item7,  
+    .collection__item8,  
+    .collection__item9,  
+    .collection__item10,  
+    .collection__item11 {
+        max-width: 100%;
+        height: 300px;   
+        margin-bottom: 15px;
+    }   
+     
+    // advantages
+     
+    .advantages__subtitle{ 
+        font-size: 23px;
+    } 
+      
+    // ship 
+     
+    .ship__price {
+        margin-bottom: 10px;
+    }
+     
+    .ship .ship__slider-img--armchair {
+        margin: 0 auto;
+    }
+ 
+    .ship .ship__slider-img--sectional {
+        margin: 20px auto 10px;
+    } 
+     
+    .ship__slider-img--sofa {
+        margin: 46px auto 14px;
+    }
+     
+    .ship .ship__slider-img--chair {
+        margin: 25px auto 35px;
+    } 
+     
+    .ship .slick-dots {
+        position: absolute;
+        bottom: -58px;
+    } 
+      
+    //  products 
+
+    .products__title {
+        margin: 0px auto 65px;
+        font-size: 32px;
+        line-height: 65px;
+    } 
+      
+    // find-us
+
+    .find-us__title {
+        font-size: 34px;
+        line-height: 47px;
+    }  
+
+    // footer   
+
+    .footer__top-input{ 
+        padding: 0 70px 0 10px; 
+        margin-right: 0; 
+      }
+
+}
